@@ -1,37 +1,3 @@
-.Block {
-    margin: 0 1rem 1.5rem 0;
-    max-width: 450px;
-    background: var(--white);
-    border-radius: var(--radius);
-    padding: 1.5rem 2rem;
-    box-shadow: var(--light-shadow);
-}
-.BlockHard {
-    margin: 0 1rem 1.5rem 0;
-    max-width: 450px;
-    background: var(--white);
-    border-radius: var(--radius);
-    padding: 1.5rem 2rem;
-    box-shadow: var(--dark-shadow);
-}
-
-.Section {
-    margin: 0 1rem 1.5rem 0;
-    max-width: 900px;
-    background: var(--white);
-    border-radius: var(--radius);
-    padding: 1.5rem 2rem;
-    box-shadow: var(--light-shadow);
-}
-.SectionHard {
-    margin: 0 1rem 1.5rem 0;
-    max-width: 900px;
-    background: var(--white);
-    border-radius: var(--radius);
-    padding: 1.5rem 2rem;
-    box-shadow:  var(--dark-shadow);
-}
-
 .Wrapper {
     min-height: 100vh;
     margin: 0 auto;
@@ -40,13 +6,12 @@
 
 @media screen and (max-width: 600px) {
     .Wrapper {
-        background: #0d503c;
         width: 100vw;
     }
 }
 
-.WrapperCenter {
-    min-height: 100vh;
+.Center {
+    min-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
