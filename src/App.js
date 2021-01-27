@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import SpringLogo from './SpringLogo.png'
+import './index1.css'
+import './ButtonBlue.css'
+import './ButtonGreen.css'
+import './ButtonNeutral.css'
+import './ButtonPink.css'
+import './ButtonYellow.css'
+import './Containers.css'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="Wrapper">
+                <div>
+                    <img src={SpringLogo} alt="/"/>
+                </div>
+
+                <button className="ButtonBlue">Blue</button>
+                <button className="ButtonGreen">Green</button>
+                <button className="ButtonNeutral">Neutral</button>
+                <button className="ButtonPink">Pink</button>
+                <button className="ButtonYellow">Yellow</button>
+                <div className="Section">Block</div>
+                <div className="SectionHard">BlockHard</div>
+        </div>
+    )
 }
 
-export default App;
+export default App

@@ -1,0 +1,27 @@
+.ButtonBlue {
+    color: var(--white);
+    display: inline-block;
+    max-width: 100%;
+    border-color: transparent;
+    background: #7FDBFF;
+    margin: 0 1rem 1.5rem 0;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    padding: 0.5rem 0.5rem;
+    letter-spacing: var(--spacing);
+    border-radius: var(--radius);
+    outline: 1px solid #7FDBFF80;
+    cursor: pointer;
+}
+.ButtonBlue:hover {
+    outline: 1px solid #7FDBFF;
+    background: var(--white);
+    color: #7FDBFF;
+}
+.ButtonBlue:active {
+    outline: none;
+    background: #0074D9;
+    color: hsla(208, 100%, 85%, 1.0);
+    border-radius: 0;
+}
+
